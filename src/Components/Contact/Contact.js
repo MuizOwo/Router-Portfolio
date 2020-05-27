@@ -5,7 +5,7 @@ import './Contact.css'
 export class Contact extends Component {
     render() {
         return (
-            <div className="contact-wrap">
+            <div id="contact" className="contact-wrap">
                 <div className='contact'>
                     <h1>Get In Touch</h1>
                         <div className='row'>

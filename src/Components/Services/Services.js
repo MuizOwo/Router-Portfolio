@@ -4,7 +4,7 @@ import './Services.css'
 export class Services extends Component {
     render() {
         return (
-            <div className='service-wrap'>
+            <div id='service' className='service-wrap'>
                 <div className='wrap-service'>
                     <h1>Services</h1>
                     <div className='services'> 

@@ -4,7 +4,7 @@ import './Home.css'
 export class Home extends Component {
     render() {
         return (
-            <div className='home-wrap'>
+            <div id='home' className='home-wrap'>
                 <div className='home'>
                     <div className='home-header'>
                         <h1>I'm BoyCoder</h1>

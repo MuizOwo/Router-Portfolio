@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Link} from 'react-router-dom'
+//import {Link} from 'react-router-dom'
 import NavImg from './NavImg'
 import './Navbar.css'
 
@@ -19,12 +19,12 @@ class Navbar extends Component {
                 <div class="dropdown-divider"></div>
                 <div className='navbar-body'>
                     <ul>
-                        <Link to='/'><li><a href='#'><i className="fas fa-home"></i> Home</a></li></Link>
-                        <Link to='/about'><li><a href='#'><i className="fas fa-user"></i> About</a></li></Link>
-                        <Link to='/skill'><li><a href='#'><i className="fas fa-code"></i> Skill</a></li></Link>
-                        <Link to='/services'><li><a href='#'><i className="fas fa-lightbulb"></i> Services</a></li></Link>
-                        <Link to='/works'><li><a href='#'><i className="fas fa-th-large"></i> Works</a></li></Link>
-                        <Link to='/contact'><li><a href='#'><i className="fas fa-phone-alt"></i> Contacts</a></li></Link>
+                        <li><a href='#home'><i className="fas fa-home"></i> Home</a></li>
+                        <li><a href='#about'><i className="fas fa-user"></i> About</a></li>
+                        <li><a href='#skill'><i className="fas fa-code"></i> Skill</a></li>
+                        <li><a href='#service'><i className="fas fa-lightbulb"></i> Services</a></li>
+                        <li><a href='#work'><i className="fas fa-th-large"></i> Works</a></li>
+                        <li><a href='#contact'><i className="fas fa-phone-alt"></i> Contacts</a></li>
                     </ul>
                 </div>
                 <div className='navbar-footer'>

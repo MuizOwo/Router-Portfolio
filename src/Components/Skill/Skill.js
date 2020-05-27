@@ -3,7 +3,7 @@ import './Skill.css'
 export class Skill extends Component {
     render() {
         return (
-            <div className='skill-wrap'>
+            <div id='skill' className='skill-wrap'>
             <div className='skill'>
                 <h1>My Skill </h1>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>

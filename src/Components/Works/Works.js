@@ -4,7 +4,7 @@ import './Works.css'
 export class Works extends Component {
     render() {
         return (
-            <div className='work-wrap'>
+            <div id='work' className='work-wrap'>
                 <div className='wrap-work'>
                 <h1>Works</h1>
                     <div className='work-1'>
